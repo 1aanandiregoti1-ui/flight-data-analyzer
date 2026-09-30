@@ -1,0 +1,21 @@
+# Secrets — committing .env even once puts the secret in history forever.
+.env
+
+# Environment
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Raw data is large and irreplaceable-but-personal; keep it local.
+data/raw/*
+!data/raw/.gitkeep
+
+# Notebook noise
+.ipynb_checkpoints/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

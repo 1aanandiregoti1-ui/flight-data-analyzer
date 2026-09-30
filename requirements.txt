@@ -1,0 +1,12 @@
+# Pinned so the project runs the same in January as it did in September.
+requests==2.34.2
+pandas==3.0.6
+pyarrow==25.0.1
+matplotlib==3.11.2
+numpy==2.5.3
+python-dotenv==1.2.3
+pytest==9.1.1
+
+# Optional: coastlines and borders under the flight-paths map.
+# The map falls back to bare tracks if this is not installed, so if the
+# build fights you on Windows, skip it:  pip install cartopy

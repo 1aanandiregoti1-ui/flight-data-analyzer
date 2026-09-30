@@ -1,0 +1,10 @@
+[project]
+name = "flighttrack"
+version = "0.1.0"
+description = "Collect live ADS-B position reports from OpenSky and measure how far real flights deviate from the great-circle route."
+requires-python = ">=3.11"
+license = { text = "MIT" }
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
